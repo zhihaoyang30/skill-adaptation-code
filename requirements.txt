@@ -1,0 +1,5 @@
+harbor @ git+https://github.com/icip-cas/DocOps.git@ccf7a751bc5c8a69c1cdd0400125d53455b33be3#subdirectory=third_party/harbor
+litellm==1.98.0
+PyYAML==6.0.3
+fastapi>=0.128.0,<1
+uvicorn>=0.38.0,<1

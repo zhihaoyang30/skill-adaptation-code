@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "skillsbench": {
+      "kind": "git",
+      "url": "https://github.com/benchflow-ai/skillsbench.git",
+      "revision": "312d07e15e5398f6eda32ee1bb86e492ab18edd1",
+      "task_roots": ["tasks", "tasks-extra"],
+      "license": "See the upstream repository and individual task licenses"
+    },
+    "docops": {
+      "kind": "git",
+      "url": "https://github.com/icip-cas/DocOps.git",
+      "revision": "ccf7a751bc5c8a69c1cdd0400125d53455b33be3",
+      "task_roots": ["tasks"],
+      "license": "Apache-2.0; bundled skills retain their upstream licenses"
+    },
+    "tessl": {
+      "kind": "huggingface_zip",
+      "url": "https://huggingface.co/datasets/tesslio/task-evals-for-skills",
+      "revision": "5db85e25253204f78497c6e2832a96ed51ed912e",
+      "filename": "tasks.zip",
+      "sha256": "c881a0bad7ad9b613a033cc672e65eef9cba6cc3eacacce7545202cbb7552168",
+      "task_roots": ["tasks"],
+      "license": "Apache-2.0; skills retain their original repository licenses"
+    }
+  }
+}

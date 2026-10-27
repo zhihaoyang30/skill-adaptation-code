@@ -1,0 +1,32 @@
+{
+  "harness": "Claude Code",
+  "version": "2.1.114",
+  "tools": [
+    "Task",
+    "AskUserQuestion",
+    "Bash",
+    "CronCreate",
+    "CronDelete",
+    "CronList",
+    "Edit",
+    "EnterWorktree",
+    "ExitWorktree",
+    "Glob",
+    "Grep",
+    "NotebookEdit",
+    "Read",
+    "ScheduleWakeup",
+    "Skill",
+    "TaskOutput",
+    "TaskStop",
+    "TodoWrite",
+    "WebFetch",
+    "WebSearch",
+    "Write"
+  ],
+  "disabled_tools": [
+    "EnterPlanMode",
+    "ExitPlanMode"
+  ],
+  "note": "Callable tool names for the pinned CLI. Skill names and file paths are not tools."
+}

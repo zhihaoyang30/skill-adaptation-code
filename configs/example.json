@@ -1,0 +1,10 @@
+{
+  "data_root": "data/upstream",
+  "models": {
+    "executor": {"api_format": "openai", "model": "your-executor-model", "base_url": "https://api.openai.com/v1", "api_key_env": "EXECUTOR_API_KEY", "parameters": {}},
+    "rewriter": {"api_format": "openai", "model": "your-rewriter-model", "base_url": "https://api.openai.com/v1", "api_key_env": "REWRITER_API_KEY", "parameters": {"max_tokens": 16000}},
+    "judge": {"api_format": "openai", "model": "your-judge-model", "base_url": "https://api.openai.com/v1", "api_key_env": "JUDGE_API_KEY", "parameters": {"max_tokens": 16000}}
+  },
+  "judge": "judge",
+  "runtime": {"agent_timeout": 1800, "max_iterations": 100, "openhands_version": "1.28.1", "claude_version": "2.1.114", "tessl_image": "skill-adaptation-claude:2.1.114"}
+}

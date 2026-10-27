@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+configs/local*.json
+data/upstream/
+runs/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+*.zip
+
+.DS_Store

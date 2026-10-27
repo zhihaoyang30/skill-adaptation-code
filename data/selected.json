@@ -1,0 +1,1251 @@
+{
+  "schema_version": 1,
+  "description": "Upstream task and skill references for the 103-pair adaptation subset.",
+  "pairs": [
+    {
+      "benchmark": "docops",
+      "task": "atomic__excel_001_budget_bucket_totals_seed",
+      "path": "tasks/atomic__excel_001_budget_bucket_totals_seed",
+      "skills": [
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/atomic__excel_001_budget_bucket_totals_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "atomic__excel_008_client_update_editing_seed",
+      "path": "tasks/atomic__excel_008_client_update_editing_seed",
+      "skills": [
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/atomic__excel_008_client_update_editing_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "atomic__excel_011_theme_transfer_seed",
+      "path": "tasks/atomic__excel_011_theme_transfer_seed",
+      "skills": [
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/atomic__excel_011_theme_transfer_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "atomic__pdf_002_contract_conflict_reasoning_seed",
+      "path": "tasks/atomic__pdf_002_contract_conflict_reasoning_seed",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "tasks/atomic__pdf_002_contract_conflict_reasoning_seed/environment/skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "atomic__pdf_005_paragraph_editing_seed",
+      "path": "tasks/atomic__pdf_005_paragraph_editing_seed",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "tasks/atomic__pdf_005_paragraph_editing_seed/environment/skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "atomic__ppt_001_generate_risk_points_seed",
+      "path": "tasks/atomic__ppt_001_generate_risk_points_seed",
+      "skills": [
+        "pptx"
+      ],
+      "skill_paths": [
+        "tasks/atomic__ppt_001_generate_risk_points_seed/environment/skills/pptx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "atomic__ppt_003_theme_transfer_seed",
+      "path": "tasks/atomic__ppt_003_theme_transfer_seed",
+      "skills": [
+        "pptx"
+      ],
+      "skill_paths": [
+        "tasks/atomic__ppt_003_theme_transfer_seed/environment/skills/pptx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "atomic__ppt_009_metric_conflict_reasoning_seed",
+      "path": "tasks/atomic__ppt_009_metric_conflict_reasoning_seed",
+      "skills": [
+        "pptx"
+      ],
+      "skill_paths": [
+        "tasks/atomic__ppt_009_metric_conflict_reasoning_seed/environment/skills/pptx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "atomic__word_003_client_letter_editing_seed",
+      "path": "tasks/atomic__word_003_client_letter_editing_seed",
+      "skills": [
+        "doc"
+      ],
+      "skill_paths": [
+        "tasks/atomic__word_003_client_letter_editing_seed/environment/skills/doc"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "atomic__word_012_table_structure_seed",
+      "path": "tasks/atomic__word_012_table_structure_seed",
+      "skills": [
+        "doc"
+      ],
+      "skill_paths": [
+        "tasks/atomic__word_012_table_structure_seed/environment/skills/doc"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__excelc_006_formalize_update_and_match_body_style_seed",
+      "path": "tasks/composite_same_type__excelc_006_formalize_update_and_match_body_style_seed",
+      "skills": [
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__excelc_006_formalize_update_and_match_body_style_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__excelc_010_compute_risk_flag_and_highlight_rows_seed",
+      "path": "tasks/composite_same_type__excelc_010_compute_risk_flag_and_highlight_rows_seed",
+      "skills": [
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__excelc_010_compute_risk_flag_and_highlight_rows_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__pdfc_002_reorder_pages_and_rebuild_bookmarks_seed",
+      "path": "tasks/composite_same_type__pdfc_002_reorder_pages_and_rebuild_bookmarks_seed",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__pdfc_002_reorder_pages_and_rebuild_bookmarks_seed/environment/skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__pdfc_003_fill_summary_box_and_apply_theme_seed",
+      "path": "tasks/composite_same_type__pdfc_003_fill_summary_box_and_apply_theme_seed",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__pdfc_003_fill_summary_box_and_apply_theme_seed/environment/skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__pdfc_009_reason_and_rewrite_conflict_note_seed",
+      "path": "tasks/composite_same_type__pdfc_009_reason_and_rewrite_conflict_note_seed",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__pdfc_009_reason_and_rewrite_conflict_note_seed/environment/skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__pdfc_010_theme_and_align_callout_boxes_seed",
+      "path": "tasks/composite_same_type__pdfc_010_theme_and_align_callout_boxes_seed",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__pdfc_010_theme_and_align_callout_boxes_seed/environment/skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__pptc_001_retheme_restyle_and_realign_seed",
+      "path": "tasks/composite_same_type__pptc_001_retheme_restyle_and_realign_seed",
+      "skills": [
+        "pptx"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__pptc_001_retheme_restyle_and_realign_seed/environment/skills/pptx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__pptc_007_insert_summary_slide_and_generate_bullets_seed",
+      "path": "tasks/composite_same_type__pptc_007_insert_summary_slide_and_generate_bullets_seed",
+      "skills": [
+        "pptx"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__pptc_007_insert_summary_slide_and_generate_bullets_seed/environment/skills/pptx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__pptc_009_reorder_and_theme_governance_deck_seed",
+      "path": "tasks/composite_same_type__pptc_009_reorder_and_theme_governance_deck_seed",
+      "skills": [
+        "pptx"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__pptc_009_reorder_and_theme_governance_deck_seed/environment/skills/pptx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "composite_same_type__wordc_001_repair_hierarchy_and_standardize_styles_seed",
+      "path": "tasks/composite_same_type__wordc_001_repair_hierarchy_and_standardize_styles_seed",
+      "skills": [
+        "doc"
+      ],
+      "skill_paths": [
+        "tasks/composite_same_type__wordc_001_repair_hierarchy_and_standardize_styles_seed/environment/skills/doc"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "cross_doc_docops__pdfxr_003_due_diligence_latest_uploads_packet_and_nested_bookmarks_seed",
+      "path": "tasks/cross_doc_docops__pdfxr_003_due_diligence_latest_uploads_packet_and_nested_bookmarks_seed",
+      "skills": [
+        "doc",
+        "pdf",
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/cross_doc_docops__pdfxr_003_due_diligence_latest_uploads_packet_and_nested_bookmarks_seed/environment/skills/doc",
+        "tasks/cross_doc_docops__pdfxr_003_due_diligence_latest_uploads_packet_and_nested_bookmarks_seed/environment/skills/pdf",
+        "tasks/cross_doc_docops__pdfxr_003_due_diligence_latest_uploads_packet_and_nested_bookmarks_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "cross_doc_docops__pdfxr_004_security_response_packet_fill_cover_and_insert_evidence_seed",
+      "path": "tasks/cross_doc_docops__pdfxr_004_security_response_packet_fill_cover_and_insert_evidence_seed",
+      "skills": [
+        "doc",
+        "pdf",
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/cross_doc_docops__pdfxr_004_security_response_packet_fill_cover_and_insert_evidence_seed/environment/skills/doc",
+        "tasks/cross_doc_docops__pdfxr_004_security_response_packet_fill_cover_and_insert_evidence_seed/environment/skills/pdf",
+        "tasks/cross_doc_docops__pdfxr_004_security_response_packet_fill_cover_and_insert_evidence_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "cross_doc_docops__pptxr_004_handover_owner_matrix_from_closeout_logs_seed",
+      "path": "tasks/cross_doc_docops__pptxr_004_handover_owner_matrix_from_closeout_logs_seed",
+      "skills": [
+        "doc",
+        "pdf",
+        "pptx",
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/cross_doc_docops__pptxr_004_handover_owner_matrix_from_closeout_logs_seed/environment/skills/doc",
+        "tasks/cross_doc_docops__pptxr_004_handover_owner_matrix_from_closeout_logs_seed/environment/skills/pdf",
+        "tasks/cross_doc_docops__pptxr_004_handover_owner_matrix_from_closeout_logs_seed/environment/skills/pptx",
+        "tasks/cross_doc_docops__pptxr_004_handover_owner_matrix_from_closeout_logs_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "cross_doc_docops__pptxr_005_public_health_briefing_template_fill_from_message_map_seed",
+      "path": "tasks/cross_doc_docops__pptxr_005_public_health_briefing_template_fill_from_message_map_seed",
+      "skills": [
+        "doc",
+        "pdf",
+        "pptx",
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/cross_doc_docops__pptxr_005_public_health_briefing_template_fill_from_message_map_seed/environment/skills/doc",
+        "tasks/cross_doc_docops__pptxr_005_public_health_briefing_template_fill_from_message_map_seed/environment/skills/pdf",
+        "tasks/cross_doc_docops__pptxr_005_public_health_briefing_template_fill_from_message_map_seed/environment/skills/pptx",
+        "tasks/cross_doc_docops__pptxr_005_public_health_briefing_template_fill_from_message_map_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "cross_doc_docops__wordxr_004_mou_template_scope_term_and_contacts_seed",
+      "path": "tasks/cross_doc_docops__wordxr_004_mou_template_scope_term_and_contacts_seed",
+      "skills": [
+        "doc",
+        "pdf",
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/cross_doc_docops__wordxr_004_mou_template_scope_term_and_contacts_seed/environment/skills/doc",
+        "tasks/cross_doc_docops__wordxr_004_mou_template_scope_term_and_contacts_seed/environment/skills/pdf",
+        "tasks/cross_doc_docops__wordxr_004_mou_template_scope_term_and_contacts_seed/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "docops_v2_l3_007_docx_museum_installation_binder_release",
+      "path": "tasks/docops_v2_l3_007_docx_museum_installation_binder_release",
+      "skills": [
+        "doc"
+      ],
+      "skill_paths": [
+        "skills/doc"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "docops_v2_l3_009_docx_incident_manual_publication",
+      "path": "tasks/docops_v2_l3_009_docx_incident_manual_publication",
+      "skills": [
+        "doc"
+      ],
+      "skill_paths": [
+        "tasks/docops_v2_l3_009_docx_incident_manual_publication/environment/skills/doc"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "docops_v2_l3_027_pptx_food_recall_public_briefing_repair",
+      "path": "tasks/docops_v2_l3_027_pptx_food_recall_public_briefing_repair",
+      "skills": [
+        "pptx"
+      ],
+      "skill_paths": [
+        "skills/pptx"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "docops_v2_l3_031_pdf_public_hearing_packet_flatten_release",
+      "path": "tasks/docops_v2_l3_031_pdf_public_hearing_packet_flatten_release",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "docops_v2_l3_037_pdf_bus_detour_notice_layout_repair",
+      "path": "tasks/docops_v2_l3_037_pdf_bus_detour_notice_layout_repair",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "docops_v2_l3_040_pdf_grant_reimbursement_closeout_packet_repair",
+      "path": "tasks/docops_v2_l3_040_pdf_grant_reimbursement_closeout_packet_repair",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "docops",
+      "task": "single_doc_workflow__wordwf_003_bilingual_report_publication_seed",
+      "path": "tasks/single_doc_workflow__wordwf_003_bilingual_report_publication_seed",
+      "skills": [
+        "doc"
+      ],
+      "skill_paths": [
+        "tasks/single_doc_workflow__wordwf_003_bilingual_report_publication_seed/environment/skills/doc"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "bike-rebalance",
+      "path": "tasks/bike-rebalance",
+      "skills": [
+        "geospatial-routing-data",
+        "logistics-rules-to-optimization",
+        "routing-subtour-elimination",
+        "scip-opt"
+      ],
+      "skill_paths": [
+        "tasks/bike-rebalance/environment/skills/geospatial-routing-data",
+        "tasks/bike-rebalance/environment/skills/logistics-rules-to-optimization",
+        "tasks/bike-rebalance/environment/skills/routing-subtour-elimination",
+        "tasks/bike-rebalance/environment/skills/scip-opt"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "court-form-filling",
+      "path": "tasks/court-form-filling",
+      "skills": [
+        "pdf"
+      ],
+      "skill_paths": [
+        "tasks/court-form-filling/environment/skills/pdf"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "dapt-intrusion-detection",
+      "path": "tasks/dapt-intrusion-detection",
+      "skills": [
+        "pcap-analysis",
+        "threat-detection"
+      ],
+      "skill_paths": [
+        "tasks/dapt-intrusion-detection/environment/skills/pcap-analysis",
+        "tasks/dapt-intrusion-detection/environment/skills/threat-detection"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "data-to-d3",
+      "path": "tasks/data-to-d3",
+      "skills": [
+        "d3-visualization"
+      ],
+      "skill_paths": [
+        "tasks/data-to-d3/environment/skills/d3-visualization"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "debug-trl-grpo",
+      "path": "tasks/debug-trl-grpo",
+      "skills": [
+        "grpo",
+        "rl-post-training",
+        "trl"
+      ],
+      "skill_paths": [
+        "tasks/debug-trl-grpo/environment/skills/grpo",
+        "tasks/debug-trl-grpo/environment/skills/rl-post-training",
+        "tasks/debug-trl-grpo/environment/skills/trl"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "dialogue-parser",
+      "path": "tasks/dialogue-parser",
+      "skills": [
+        "dialogue-graph"
+      ],
+      "skill_paths": [
+        "tasks/dialogue-parser/environment/skills/dialogue-graph"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "drone-planning-control",
+      "path": "tasks/drone-planning-control",
+      "skills": [
+        "attitude-controller-planner",
+        "flight-plan-parser",
+        "motor-model-dynamics",
+        "plot-quadrotor",
+        "position-controller-trajectory-planner",
+        "stepinfo-3d"
+      ],
+      "skill_paths": [
+        "tasks/drone-planning-control/environment/skills/attitude-controller-planner",
+        "tasks/drone-planning-control/environment/skills/flight-plan-parser",
+        "tasks/drone-planning-control/environment/skills/motor-model-dynamics",
+        "tasks/drone-planning-control/environment/skills/plot-quadrotor",
+        "tasks/drone-planning-control/environment/skills/position-controller-trajectory-planner",
+        "tasks/drone-planning-control/environment/skills/stepinfo-3d"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "earthquake-plate-calculation",
+      "path": "tasks/earthquake-plate-calculation",
+      "skills": [
+        "geospatial-analysis"
+      ],
+      "skill_paths": [
+        "tasks/earthquake-plate-calculation/environment/skills/geospatial-analysis"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "edit-pdf",
+      "path": "tasks/edit-pdf",
+      "skills": [
+        "pdf-editing",
+        "text-parser"
+      ],
+      "skill_paths": [
+        "tasks/edit-pdf/environment/skills/pdf-editing",
+        "tasks/edit-pdf/environment/skills/text-parser"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "energy-unit-commitment",
+      "path": "tasks/energy-unit-commitment",
+      "skills": [
+        "milp-solver-workflow",
+        "unit-commitment-data-modeling",
+        "unit-commitment-operating-rules"
+      ],
+      "skill_paths": [
+        "tasks/energy-unit-commitment/environment/skills/milp-solver-workflow",
+        "tasks/energy-unit-commitment/environment/skills/unit-commitment-data-modeling",
+        "tasks/energy-unit-commitment/environment/skills/unit-commitment-operating-rules"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "financial-modeling-qa",
+      "path": "tasks/financial-modeling-qa",
+      "skills": [
+        "pdf",
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/financial-modeling-qa/environment/skills/pdf",
+        "tasks/financial-modeling-qa/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "glm-lake-mendota",
+      "path": "tasks/glm-lake-mendota",
+      "skills": [
+        "glm-basics",
+        "glm-calibration",
+        "glm-output"
+      ],
+      "skill_paths": [
+        "tasks/glm-lake-mendota/environment/skills/glm-basics",
+        "tasks/glm-lake-mendota/environment/skills/glm-calibration",
+        "tasks/glm-lake-mendota/environment/skills/glm-output"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "grid-dispatch-operator",
+      "path": "tasks/grid-dispatch-operator",
+      "skills": [
+        "dc-power-flow",
+        "economic-dispatch",
+        "power-flow-data"
+      ],
+      "skill_paths": [
+        "tasks/grid-dispatch-operator/environment/skills/dc-power-flow",
+        "tasks/grid-dispatch-operator/environment/skills/economic-dispatch",
+        "tasks/grid-dispatch-operator/environment/skills/power-flow-data"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "hvac-control",
+      "path": "tasks/hvac-control",
+      "skills": [
+        "excitation-signal-design",
+        "first-order-model-fitting",
+        "imc-tuning-rules",
+        "safety-interlocks",
+        "scipy-curve-fit"
+      ],
+      "skill_paths": [
+        "tasks/hvac-control/environment/skills/excitation-signal-design",
+        "tasks/hvac-control/environment/skills/first-order-model-fitting",
+        "tasks/hvac-control/environment/skills/imc-tuning-rules",
+        "tasks/hvac-control/environment/skills/safety-interlocks",
+        "tasks/hvac-control/environment/skills/scipy-curve-fit"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "lab-unit-harmonization",
+      "path": "tasks/lab-unit-harmonization",
+      "skills": [
+        "lab-unit-harmonization"
+      ],
+      "skill_paths": [
+        "tasks/lab-unit-harmonization/environment/skills/lab-unit-harmonization"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "lake-warming-attribution",
+      "path": "tasks/lake-warming-attribution",
+      "skills": [
+        "contribution-analysis",
+        "meteorology-driver-classification",
+        "pca-decomposition",
+        "trend-analysis"
+      ],
+      "skill_paths": [
+        "tasks/lake-warming-attribution/environment/skills/contribution-analysis",
+        "tasks/lake-warming-attribution/environment/skills/meteorology-driver-classification",
+        "tasks/lake-warming-attribution/environment/skills/pca-decomposition",
+        "tasks/lake-warming-attribution/environment/skills/trend-analysis"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "llm-prefix-cache-replay",
+      "path": "tasks/llm-prefix-cache-replay",
+      "skills": [
+        "cache-policy-comparison",
+        "prefix-cache-replay"
+      ],
+      "skill_paths": [
+        "tasks/llm-prefix-cache-replay/environment/skills/cache-policy-comparison",
+        "tasks/llm-prefix-cache-replay/environment/skills/prefix-cache-replay"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "manufacturing-equipment-maintenance",
+      "path": "tasks/manufacturing-equipment-maintenance",
+      "skills": [
+        "reflow-machine-maintenance-guidance",
+        "reflow-profile-compliance-toolkit"
+      ],
+      "skill_paths": [
+        "tasks/manufacturing-equipment-maintenance/environment/skills/reflow-machine-maintenance-guidance",
+        "tasks/manufacturing-equipment-maintenance/environment/skills/reflow-profile-compliance-toolkit"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "manufacturing-fjsp-optimization",
+      "path": "tasks/manufacturing-fjsp-optimization",
+      "skills": [
+        "fjsp-baseline-repair-with-downtime-and-policy"
+      ],
+      "skill_paths": [
+        "tasks/manufacturing-fjsp-optimization/environment/skills/fjsp-baseline-repair-with-downtime-and-policy"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "mario-coin-counting",
+      "path": "tasks/mario-coin-counting",
+      "skills": [
+        "ffmpeg-keyframe-extraction",
+        "image-editing",
+        "object-counter"
+      ],
+      "skill_paths": [
+        "tasks/mario-coin-counting/environment/skills/ffmpeg-keyframe-extraction",
+        "tasks/mario-coin-counting/environment/skills/image-editing",
+        "tasks/mario-coin-counting/environment/skills/object-counter"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "multilingual-video-dubbing",
+      "path": "tasks/multilingual-video-dubbing",
+      "skills": [
+        "ffmpeg-audio-processing",
+        "ffmpeg-format-conversion",
+        "ffmpeg-media-info",
+        "ffmpeg-video-editing",
+        "ffmpeg-video-filters",
+        "text-to-speech"
+      ],
+      "skill_paths": [
+        "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-audio-processing",
+        "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-format-conversion",
+        "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-media-info",
+        "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-video-editing",
+        "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-video-filters",
+        "tasks/multilingual-video-dubbing/environment/skills/text-to-speech"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "offer-letter-generator",
+      "path": "tasks/offer-letter-generator",
+      "skills": [
+        "docx"
+      ],
+      "skill_paths": [
+        "tasks/offer-letter-generator/environment/skills/docx"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "paratransit-routing",
+      "path": "tasks/paratransit-routing",
+      "skills": [
+        "ortools-pickup-delivery-routing",
+        "ortools-routing-modeling"
+      ],
+      "skill_paths": [
+        "tasks/paratransit-routing/environment/skills/ortools-pickup-delivery-routing",
+        "tasks/paratransit-routing/environment/skills/ortools-routing-modeling"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "pddl-tpp-planning",
+      "path": "tasks/pddl-tpp-planning",
+      "skills": [
+        "pddl-skills"
+      ],
+      "skill_paths": [
+        "tasks/pddl-tpp-planning/environment/skills/pddl-skills"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "pptx-reference-formatting",
+      "path": "tasks/pptx-reference-formatting",
+      "skills": [
+        "pptx"
+      ],
+      "skill_paths": [
+        "tasks/pptx-reference-formatting/environment/skills/pptx"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "protein-expression-analysis",
+      "path": "tasks/protein-expression-analysis",
+      "skills": [
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/protein-expression-analysis/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "r2r-mpc-control",
+      "path": "tasks/r2r-mpc-control",
+      "skills": [
+        "finite-horizon-lqr",
+        "integral-action-design",
+        "mpc-horizon-tuning",
+        "state-space-linearization"
+      ],
+      "skill_paths": [
+        "tasks/r2r-mpc-control/environment/skills/finite-horizon-lqr",
+        "tasks/r2r-mpc-control/environment/skills/integral-action-design",
+        "tasks/r2r-mpc-control/environment/skills/mpc-horizon-tuning",
+        "tasks/r2r-mpc-control/environment/skills/state-space-linearization"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "setup-fuzzing-py",
+      "path": "tasks/setup-fuzzing-py",
+      "skills": [
+        "discover-important-function",
+        "fuzzing-python",
+        "setup-env"
+      ],
+      "skill_paths": [
+        "tasks/setup-fuzzing-py/environment/skills/discover-important-function",
+        "tasks/setup-fuzzing-py/environment/skills/fuzzing-python",
+        "tasks/setup-fuzzing-py/environment/skills/setup-env"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "shock-analysis-demand",
+      "path": "tasks/shock-analysis-demand",
+      "skills": [
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/shock-analysis-demand/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "threejs-structure-parser",
+      "path": "tasks/threejs-structure-parser",
+      "skills": [
+        "obj-exporter",
+        "threejs"
+      ],
+      "skill_paths": [
+        "tasks/threejs-structure-parser/environment/skills/obj-exporter",
+        "tasks/threejs-structure-parser/environment/skills/threejs"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "tictoc-unnecessary-abort-detection",
+      "path": "tasks/tictoc-unnecessary-abort-detection",
+      "skills": [
+        "transaction-concurrency-control-foundations",
+        "transaction-protocol-reasoning",
+        "transaction-trace-analysis"
+      ],
+      "skill_paths": [
+        "tasks/tictoc-unnecessary-abort-detection/environment/skills/transaction-concurrency-control-foundations",
+        "tasks/tictoc-unnecessary-abort-detection/environment/skills/transaction-protocol-reasoning",
+        "tasks/tictoc-unnecessary-abort-detection/environment/skills/transaction-trace-analysis"
+      ]
+    },
+    {
+      "benchmark": "skillsbench",
+      "task": "weighted-gdp-calc",
+      "path": "tasks/weighted-gdp-calc",
+      "skills": [
+        "xlsx"
+      ],
+      "skill_paths": [
+        "tasks/weighted-gdp-calc/environment/skills/xlsx"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-anthropics_anthropic-cookbook_cookbook-audit_2",
+      "path": "tasks/tessl-single-anthropics_anthropic-cookbook_cookbook-audit_2",
+      "skills": [
+        "anthropics_anthropic-cookbook_cookbook-audit"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-anthropics_anthropic-cookbook_cookbook-audit_2/skills/anthropics_anthropic-cookbook_cookbook-audit"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-anthropics_claude-cookbooks_cookbook-audit_2",
+      "path": "tasks/tessl-single-anthropics_claude-cookbooks_cookbook-audit_2",
+      "skills": [
+        "anthropics_claude-cookbooks_cookbook-audit"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-anthropics_claude-cookbooks_cookbook-audit_2/skills/anthropics_claude-cookbooks_cookbook-audit"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-apollographql_skills_apollo-federation_0",
+      "path": "tasks/tessl-single-apollographql_skills_apollo-federation_0",
+      "skills": [
+        "apollographql_skills_apollo-federation"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-apollographql_skills_apollo-federation_0/skills/apollographql_skills_apollo-federation"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-browser-use_browser-use_cloud_2",
+      "path": "tasks/tessl-single-browser-use_browser-use_cloud_2",
+      "skills": [
+        "browser-use_browser-use_cloud"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-browser-use_browser-use_cloud_2/skills/browser-use_browser-use_cloud"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-clerk_skills_clerk-backend-api_1",
+      "path": "tasks/tessl-single-clerk_skills_clerk-backend-api_1",
+      "skills": [
+        "clerk_skills_clerk-backend-api"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-clerk_skills_clerk-backend-api_1/skills/clerk_skills_clerk-backend-api"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-clickhouse_agent-skills_chdb-sql_2",
+      "path": "tasks/tessl-single-clickhouse_agent-skills_chdb-sql_2",
+      "skills": [
+        "clickhouse_agent-skills_chdb-sql"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-clickhouse_agent-skills_chdb-sql_2/skills/clickhouse_agent-skills_chdb-sql"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-clickhouse_agent-skills_clickhouse-architecture-advisor_1",
+      "path": "tasks/tessl-single-clickhouse_agent-skills_clickhouse-architecture-advisor_1",
+      "skills": [
+        "clickhouse_agent-skills_clickhouse-architecture-advisor"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-clickhouse_agent-skills_clickhouse-architecture-advisor_1/skills/clickhouse_agent-skills_clickhouse-architecture-advisor"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-elevenlabs_skills_voice-changer_1",
+      "path": "tasks/tessl-single-elevenlabs_skills_voice-changer_1",
+      "skills": [
+        "elevenlabs_skills_voice-changer"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-elevenlabs_skills_voice-changer_1/skills/elevenlabs_skills_voice-changer"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-firecrawl_firecrawl-claude-plugin_firecrawl-search_0",
+      "path": "tasks/tessl-single-firecrawl_firecrawl-claude-plugin_firecrawl-search_0",
+      "skills": [
+        "firecrawl_firecrawl-claude-plugin_firecrawl-search"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-firecrawl_firecrawl-claude-plugin_firecrawl-search_0/skills/firecrawl_firecrawl-claude-plugin_firecrawl-search"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-firecrawl_firecrawl-claude-plugin_firecrawl-search_1",
+      "path": "tasks/tessl-single-firecrawl_firecrawl-claude-plugin_firecrawl-search_1",
+      "skills": [
+        "firecrawl_firecrawl-claude-plugin_firecrawl-search"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-firecrawl_firecrawl-claude-plugin_firecrawl-search_1/skills/firecrawl_firecrawl-claude-plugin_firecrawl-search"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-firecrawl_firecrawl-cli_firecrawl-scrape_2",
+      "path": "tasks/tessl-single-firecrawl_firecrawl-cli_firecrawl-scrape_2",
+      "skills": [
+        "firecrawl_firecrawl-cli_firecrawl-scrape"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-firecrawl_firecrawl-cli_firecrawl-scrape_2/skills/firecrawl_firecrawl-cli_firecrawl-scrape"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-getsentry_agent-skills_sentry-nextjs-sdk_2",
+      "path": "tasks/tessl-single-getsentry_agent-skills_sentry-nextjs-sdk_2",
+      "skills": [
+        "getsentry_agent-skills_sentry-nextjs-sdk"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-getsentry_agent-skills_sentry-nextjs-sdk_2/skills/getsentry_agent-skills_sentry-nextjs-sdk"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-getsentry_sentry-for-ai_sentry-create-alert_1",
+      "path": "tasks/tessl-single-getsentry_sentry-for-ai_sentry-create-alert_1",
+      "skills": [
+        "getsentry_sentry-for-ai_sentry-create-alert"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-getsentry_sentry-for-ai_sentry-create-alert_1/skills/getsentry_sentry-for-ai_sentry-create-alert"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-getsentry_sentry-for-ai_sentry-create-alert_2",
+      "path": "tasks/tessl-single-getsentry_sentry-for-ai_sentry-create-alert_2",
+      "skills": [
+        "getsentry_sentry-for-ai_sentry-create-alert"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-getsentry_sentry-for-ai_sentry-create-alert_2/skills/getsentry_sentry-for-ai_sentry-create-alert"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-getsentry_sentry-for-cursor_sentry-setup-tracing_2",
+      "path": "tasks/tessl-single-getsentry_sentry-for-cursor_sentry-setup-tracing_2",
+      "skills": [
+        "getsentry_sentry-for-cursor_sentry-setup-tracing"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-getsentry_sentry-for-cursor_sentry-setup-tracing_2/skills/getsentry_sentry-for-cursor_sentry-setup-tracing"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-getsentry_sentry-python_security-review_1",
+      "path": "tasks/tessl-single-getsentry_sentry-python_security-review_1",
+      "skills": [
+        "getsentry_sentry-python_security-review"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-getsentry_sentry-python_security-review_1/skills/getsentry_sentry-python_security-review"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-langfuse_skills_langfuse_2",
+      "path": "tasks/tessl-single-langfuse_skills_langfuse_2",
+      "skills": [
+        "langfuse_skills_langfuse"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-langfuse_skills_langfuse_2/skills/langfuse_skills_langfuse"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-mastra-ai_mastra_react-best-practices_0",
+      "path": "tasks/tessl-single-mastra-ai_mastra_react-best-practices_0",
+      "skills": [
+        "mastra-ai_mastra_react-best-practices"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-mastra-ai_mastra_react-best-practices_0/skills/mastra-ai_mastra_react-best-practices"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-microsoft_apm_apm-triage-panel_0",
+      "path": "tasks/tessl-single-microsoft_apm_apm-triage-panel_0",
+      "skills": [
+        "microsoft_apm_apm-triage-panel"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-microsoft_apm_apm-triage-panel_0/skills/microsoft_apm_apm-triage-panel"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-microsoft_apm_apm-triage-panel_1",
+      "path": "tasks/tessl-single-microsoft_apm_apm-triage-panel_1",
+      "skills": [
+        "microsoft_apm_apm-triage-panel"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-microsoft_apm_apm-triage-panel_1/skills/microsoft_apm_apm-triage-panel"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-microsoft_apm_apm-triage-panel_2",
+      "path": "tasks/tessl-single-microsoft_apm_apm-triage-panel_2",
+      "skills": [
+        "microsoft_apm_apm-triage-panel"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-microsoft_apm_apm-triage-panel_2/skills/microsoft_apm_apm-triage-panel"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-microsoft_eval-guide_eval-result-interpreter_0",
+      "path": "tasks/tessl-single-microsoft_eval-guide_eval-result-interpreter_0",
+      "skills": [
+        "microsoft_eval-guide_eval-result-interpreter"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-microsoft_eval-guide_eval-result-interpreter_0/skills/microsoft_eval-guide_eval-result-interpreter"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-neondatabase_ai-rules_neon-auth_0",
+      "path": "tasks/tessl-single-neondatabase_ai-rules_neon-auth_0",
+      "skills": [
+        "neondatabase_ai-rules_neon-auth"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-neondatabase_ai-rules_neon-auth_0/skills/neondatabase_ai-rules_neon-auth"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-resend_resend-cli_resend-cli_1",
+      "path": "tasks/tessl-single-resend_resend-cli_resend-cli_1",
+      "skills": [
+        "resend_resend-cli_resend-cli"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-resend_resend-cli_resend-cli_1/skills/resend_resend-cli_resend-cli"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-runwayml_runway-studio-skills_runway-studio-skills_0",
+      "path": "tasks/tessl-single-runwayml_runway-studio-skills_runway-studio-skills_0",
+      "skills": [
+        "runwayml_runway-studio-skills_runway-studio-skills"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-runwayml_runway-studio-skills_runway-studio-skills_0/skills/runwayml_runway-studio-skills_runway-studio-skills"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-sanity-io_next-sanity_vitest_2",
+      "path": "tasks/tessl-single-sanity-io_next-sanity_vitest_2",
+      "skills": [
+        "sanity-io_next-sanity_vitest"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-sanity-io_next-sanity_vitest_2/skills/sanity-io_next-sanity_vitest"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-shopify_liquid-skills_liquid-theme-standards_2",
+      "path": "tasks/tessl-single-shopify_liquid-skills_liquid-theme-standards_2",
+      "skills": [
+        "shopify_liquid-skills_liquid-theme-standards"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-shopify_liquid-skills_liquid-theme-standards_2/skills/shopify_liquid-skills_liquid-theme-standards"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-shopify_liquid-skills_shopify-liquid-themes_0",
+      "path": "tasks/tessl-single-shopify_liquid-skills_shopify-liquid-themes_0",
+      "skills": [
+        "shopify_liquid-skills_shopify-liquid-themes"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-shopify_liquid-skills_shopify-liquid-themes_0/skills/shopify_liquid-skills_shopify-liquid-themes"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-shopify_shopify-ai-toolkit_shopify-storefront-graphql_0",
+      "path": "tasks/tessl-single-shopify_shopify-ai-toolkit_shopify-storefront-graphql_0",
+      "skills": [
+        "shopify_shopify-ai-toolkit_shopify-storefront-graphql"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-shopify_shopify-ai-toolkit_shopify-storefront-graphql_0/skills/shopify_shopify-ai-toolkit_shopify-storefront-graphql"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-stripe_agent-toolkit_stripe-projects_0",
+      "path": "tasks/tessl-single-stripe_agent-toolkit_stripe-projects_0",
+      "skills": [
+        "stripe_agent-toolkit_stripe-projects"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-stripe_agent-toolkit_stripe-projects_0/skills/stripe_agent-toolkit_stripe-projects"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-stripe_ai_stripe-projects_1",
+      "path": "tasks/tessl-single-stripe_ai_stripe-projects_1",
+      "skills": [
+        "stripe_ai_stripe-projects"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-stripe_ai_stripe-projects_1/skills/stripe_ai_stripe-projects"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-vercel-labs_agent-eval_web-design-guidelines_0",
+      "path": "tasks/tessl-single-vercel-labs_agent-eval_web-design-guidelines_0",
+      "skills": [
+        "vercel-labs_agent-eval_web-design-guidelines"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-vercel-labs_agent-eval_web-design-guidelines_0/skills/vercel-labs_agent-eval_web-design-guidelines"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-vercel-labs_portless_oauth_0",
+      "path": "tasks/tessl-single-vercel-labs_portless_oauth_0",
+      "skills": [
+        "vercel-labs_portless_oauth"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-vercel-labs_portless_oauth_0/skills/vercel-labs_portless_oauth"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-vercel-labs_skills_find-skills_0",
+      "path": "tasks/tessl-single-vercel-labs_skills_find-skills_0",
+      "skills": [
+        "vercel-labs_skills_find-skills"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-vercel-labs_skills_find-skills_0/skills/vercel-labs_skills_find-skills"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-vercel-labs_skills_find-skills_2",
+      "path": "tasks/tessl-single-vercel-labs_skills_find-skills_2",
+      "skills": [
+        "vercel-labs_skills_find-skills"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-vercel-labs_skills_find-skills_2/skills/vercel-labs_skills_find-skills"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-vercel-labs_vercel-plugin_routing-middleware_1",
+      "path": "tasks/tessl-single-vercel-labs_vercel-plugin_routing-middleware_1",
+      "skills": [
+        "vercel-labs_vercel-plugin_routing-middleware"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-vercel-labs_vercel-plugin_routing-middleware_1/skills/vercel-labs_vercel-plugin_routing-middleware"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-vercel_nextjs-skills_next-cache-components_2",
+      "path": "tasks/tessl-single-vercel_nextjs-skills_next-cache-components_2",
+      "skills": [
+        "vercel_nextjs-skills_next-cache-components"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-vercel_nextjs-skills_next-cache-components_2/skills/vercel_nextjs-skills_next-cache-components"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-vercel_vercel_vercel-cli_1",
+      "path": "tasks/tessl-single-vercel_vercel_vercel-cli_1",
+      "skills": [
+        "vercel_vercel_vercel-cli"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-vercel_vercel_vercel-cli_1/skills/vercel_vercel_vercel-cli"
+      ]
+    },
+    {
+      "benchmark": "tessl",
+      "task": "tessl-single-vercel_workflow_workflow-init_2",
+      "path": "tasks/tessl-single-vercel_workflow_workflow-init_2",
+      "skills": [
+        "vercel_workflow_workflow-init"
+      ],
+      "skill_paths": [
+        "tasks/tessl-single-vercel_workflow_workflow-init_2/skills/vercel_workflow_workflow-init"
+      ]
+    }
+  ]
+}

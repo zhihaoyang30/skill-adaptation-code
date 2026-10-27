@@ -1,0 +1,86 @@
+{
+  "data_root": "data/upstream",
+  "models": {
+    "frontier_a": {
+      "api_format": "openai",
+      "model": "your-frontier_a-model",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "FRONTIER_A_API_KEY",
+      "parameters": {}
+    },
+    "frontier_b": {
+      "api_format": "openai",
+      "model": "your-frontier_b-model",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "FRONTIER_B_API_KEY",
+      "parameters": {}
+    },
+    "moderate_a": {
+      "api_format": "openai",
+      "model": "your-moderate_a-model",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "MODERATE_A_API_KEY",
+      "parameters": {}
+    },
+    "moderate_b": {
+      "api_format": "openai",
+      "model": "your-moderate_b-model",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "MODERATE_B_API_KEY",
+      "parameters": {}
+    },
+    "weak_a": {
+      "api_format": "openai",
+      "model": "your-weak_a-model",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "WEAK_A_API_KEY",
+      "parameters": {}
+    },
+    "weak_b": {
+      "api_format": "openai",
+      "model": "your-weak_b-model",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "WEAK_B_API_KEY",
+      "parameters": {}
+    },
+    "weak_c": {
+      "api_format": "openai",
+      "model": "your-weak_c-model",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "WEAK_C_API_KEY",
+      "parameters": {}
+    },
+    "judge": {
+      "api_format": "openai",
+      "model": "your-judge-model",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "JUDGE_API_KEY",
+      "parameters": {
+        "max_tokens": 16000
+      }
+    }
+  },
+  "judge": "judge",
+  "runtime": {
+    "agent_timeout": 1800,
+    "max_iterations": 100,
+    "openhands_version": "1.28.1",
+    "claude_version": "2.1.114",
+    "tessl_image": "skill-adaptation-claude:2.1.114"
+  },
+  "tiers": {
+    "frontier": [
+      "frontier_a",
+      "frontier_b"
+    ],
+    "moderate": [
+      "moderate_a",
+      "moderate_b"
+    ],
+    "weak": [
+      "weak_a",
+      "weak_b",
+      "weak_c"
+    ]
+  }
+}
