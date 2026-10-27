@@ -31,10 +31,16 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2610.33024"><img src="https://img.shields.io/badge/arXiv-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv"></a>
+  <a href="https://huggingface.co/papers/2610.33024"><img src="https://img.shields.io/badge/Daily%20Paper-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Daily Paper"></a>
   <a href="https://zhihaoyang30.github.io/skill-adaptation/"><img src="https://img.shields.io/badge/Project%20Page-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Page"></a>
   <a href="https://zhihaoyang30.github.io/skill-adaptation/paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-B4503A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper"></a>
   <a href="https://github.com/zhihaoyang30/skill-adaptation-code"><img src="https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Code"></a>
 </p>
+
+<h3 align="center">
+  If you find this work useful, please upvote our <a href="https://huggingface.co/papers/2610.33024">Daily Paper</a> on Hugging Face.<br>
+  Thank you for your support!
+</h3>
 
 </div>
 
